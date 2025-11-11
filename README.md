@@ -33,7 +33,3 @@ Entrega da primeira etapa do projeto: estrutura HTML5 semântica com 3 páginas 
   4. Criar repositório no GitHub e fazer `git push`.
   5. Habilitar GitHub Pages em `Settings > Pages` apontando para a branch `main` (ou `gh-pages`).
 
-## Observações e próximos passos
-- Substituir imagens de `assets/images` por imagens otimizadas reais e múltiplas resoluções.
-- Implementar lazy-loading em imagens grandes (`loading="lazy"`).
-- Próxima entrega: aplicar CSS avançado e design system (Unidade 2).
