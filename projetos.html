@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projetos — Nome da ONG</title>
+  <meta name="description" content="Página de projetos — oportunidades de voluntariado e como doar." />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="assets/images/logo.svg" alt="Logotipo da ONG" class="logo" />
+      <nav aria-label="Navegação principal" class="main-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary" href="cadastro.html">Quero Ajudar</a>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <header class="page-header">
+      <h1>Projetos Sociais</h1>
+      <p>Conheça nossos projetos e como participar.</p>
+    </header>
+
+    <section aria-labelledby="lista-projetos">
+      <h2 id="lista-projetos" class="visually-hidden">Lista de Projetos</h2>
+      <ul class="project-list">
+        <li>
+          <article class="project-card" aria-labelledby="proj1-title">
+            <img src="assets/images/exemplo-projeto-1.jpg" alt="Voluntários em oficina" />
+            <div>
+              <h3 id="proj1-title">Oficina de Leitura</h3>
+              <p>Oficinas semanais para crianças. <strong>Vagas:</strong> 15</p>
+              <p><a href="cadastro.html">Inscreva-se como voluntário</a></p>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="project-card" aria-labelledby="proj2-title">
+            <img src="assets/images/exemplo-projeto-1.jpg" alt="Mutirão de cidadania" />
+            <div>
+              <h3 id="proj2-title">Mutirão de Cidadania</h3>
+              <p>Atendimento jurídico e emissão de documentos.</p>
+              <p><a href="#doacao">Contribuir com esta ação</a></p>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id="doacao" aria-labelledby="doacao-title">
+      <h2 id="doacao-title">Como doar</h2>
+      <p>Você pode doar por transferência ou cartão via nosso parceiro de pagamento (simulação).</p>
+      <div class="donation">
+        <p><strong>Meta atual:</strong> R$ 50.000</p>
+        <progress value="18000" max="50000">R$ 18.000 de R$ 50.000</progress>
+      </div>
+      <p>Transparência: <a href="#">Relatórios financeiros</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="ano-2"></span> Nome da ONG</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js" defer></script>
+</body>
+</html>
