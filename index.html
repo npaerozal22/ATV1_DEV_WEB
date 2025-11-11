@@ -10,20 +10,41 @@
 <body>
   <a class="skip-link" href="#main">Ir para o conteúdo</a>
 
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <img src="assets/images/logo.svg" alt="Logotipo da ONG" class="logo" />
-      <nav aria-label="Navegação principal" class="main-nav">
-        <ul>
-          <li><a href="index.html" aria-current="page">Início</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="cadastro.html">Cadastro</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-      <a class="btn btn-primary" href="cadastro.html">Quero Ajudar</a>
+ <header>
+  <div class="container header-inner">
+    <div class="topo">
+      <a href="index.html">
+        <img src="img/logo-ong.png" alt="Logotipo da ONG Esperança Viva" width="72">
+      </a>
+      <div class="topo-text">
+        <h1>ONG Esperança Viva</h1>
+        <p>Transformando realidades por meio da educação, inclusão e solidariedade.</p>
+      </div>
     </div>
-  </header>
+
+    <!-- Toggle para mobile -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu de navegação">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+
+    <nav class="nav-main" aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html" aria-current="page">Início</a></li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-dropdown-toggle" href="projetos.html">Projetos</a>
+          <ul class="nav-dropdown" aria-label="Submenu Projetos">
+            <li><a href="projetos.html#educacao">Educação</a></li>
+            <li><a href="projetos.html#renda">Geração de renda</a></li>
+          </ul>
+        </li>
+
+        <li><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
   <main id="main" class="container" role="main">
     <section class="hero" aria-labelledby="hero-title">
