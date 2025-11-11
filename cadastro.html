@@ -28,8 +28,10 @@
       <h1>Cadastro</h1>
       <p>Preencha seus dados para se tornar voluntário ou apoiador.</p>
     </header>
-
+    
+    <div id="form-alert-container"></div>
     <form id="form-cadastro" action="#" method="post" novalidate aria-labelledby="form-title">
+    <form action="#" method="post" novalidate data-form-cadastro>
       <h2 id="form-title" class="visually-hidden">Formulário de cadastro</h2>
 
       <fieldset>
@@ -112,6 +114,7 @@
     </div>
   </footer>
 
-  <script src="js/scripts.js" defer></script>
+  <div class="toast-container" id="toast-container"></div>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
